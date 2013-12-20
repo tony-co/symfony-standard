@@ -11,6 +11,11 @@ web_profiler:
     toolbar: true
     intercept_redirects: false
 
+twig:
+    auto_reload: true;
+    debug: true;
+    strict_variables: true;
+
 monolog:
     handlers:
         main:
