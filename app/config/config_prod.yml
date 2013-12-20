@@ -12,9 +12,9 @@ imports:
 #        query_cache_driver: apc
 
 twig:
-    auto_reload: false
-    debug: false
-    strict_variables: ~
+    auto_reload: true
+    debug: true
+    strict_variables: true
 
 monolog:
     handlers:
